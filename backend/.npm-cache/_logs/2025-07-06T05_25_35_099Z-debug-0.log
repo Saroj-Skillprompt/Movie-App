@@ -1,0 +1,13 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.4.2
+2 info using node@v20.19.2
+3 silly config load:file:C:\Users\asus\AppData\Local\nvm\v20.19.2\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npmrc
+5 silly config load:file:C:\Users\asus\.npmrc
+6 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-06T05_25_35_099Z-
+10 verbose logfile C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-06T05_25_35_099Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 2201ms

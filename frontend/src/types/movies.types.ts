@@ -1,4 +1,5 @@
 export type TMovie = {
+  duration: number | undefined;
   _id: string;
   title: string;
   description: string;

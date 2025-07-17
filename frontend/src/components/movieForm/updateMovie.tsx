@@ -18,14 +18,10 @@ const genreOptions = ["Action", "Romantic", "Sci-Fi", "Drama", "Horror", "Comedy
 const categoryOptions = ["featured", "trending-now", "recent"];
 
 const UpdateMovie = () => {
-  const { movieId } = useParams();
+  const { movieId } = useParams(); // ✅ fetch movieId from route
   const mutation = useUpdateMovieMutation();
   const queryClient = useQueryClient();
   const navigate = useNavigate();
-
-  const { data: movie, isLoading } = useGetMovieByIdQuery(movieId!, {
-    enabled: !!movieId,
-  });
 
   const methods = useForm<z.infer<typeof movieSchema>>({
     resolver: zodResolver(movieSchema),
@@ -38,29 +34,10 @@ const UpdateMovie = () => {
       release_year: 2024,
       duration: 120,
       category: "featured",
-      poster_url: [],
-      video_url: [],
     },
   });
 
   const { handleSubmit, reset } = methods;
-
-  useEffect(() => {
-    if (movie) {
-      reset({
-        title: movie.title,
-        description: movie.description,
-        director: movie.director,
-        release_year: movie.release_year,
-        duration: movie.duration,
-        genre: movie.genre,
-        cast: movie.cast,
-        category: movie.category,
-        poster_url: [],
-        video_url: [],
-      });
-    }
-  }, [movie, reset]);
 
   const onSubmit = async (data: z.infer<typeof movieSchema>) => {
     if (!movieId) {

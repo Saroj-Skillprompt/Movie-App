@@ -139,23 +139,21 @@ export function LoginForm() {
                 </div>
               </div>
 
-              <div>
-                <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"></div>
-                  <InputField
-                    name="password"
-                    label="Password:"
-                    type={showPassword ? "text" : "password"}
-                    placeholder="Enter your password"
-                  />
-                  <button
-                    type="button"
-                    onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-0 "
-                  >
-                    {showPassword ? <FiEyeOff /> : <FiEye />}
-                  </button>
-                </div>
+              <div className="relative">
+                <InputField
+                  name="password"
+                  label="Password:"
+                  type={showPassword ? "text" : "password"}
+                  placeholder="Enter your password"
+                  className="pr-10 " // Add padding to prevent text from going behind the eye icon
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute inset-y-0 right-3 flex items-center  pt-5 text-black"
+                >
+                  {showPassword ? <FiEyeOff /> : <FiEye />}
+                </button>
               </div>
 
               <div className="flex items-center justify-between">
@@ -168,7 +166,7 @@ export function LoginForm() {
                   />
                   <label
                     htmlFor="remember-me"
-                    className="ml-2 block text-sm text-black dark:text-white"
+                    className="ml-2 block text-sm text-black dark:text-white w-30"
                   >
                     Remember me
                   </label>

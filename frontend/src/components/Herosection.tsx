@@ -17,11 +17,14 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const backgroundImages = [
-    "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2000", // Main backdrop
-    "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2000", // Popular cinema
     "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=2000", // Movie theater
-    "https://images.unsplash.com/photo-1512070679279-8988d32161be?q=80&w=2000", // Film reel
-    "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2000", // Cinema hall
+    "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2000", // Popular cinema
+    // "/poster.jpg",
+    "/poster-2.jpg",
+    "/poster 1.jpg",
+    // "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=2000", // Main backdrop
+    // "https://images.unsplash.com/photo-1512070679279-8988d32161be?q=80&w=2000", // Film reel
+    // "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2000", // Cinema hall
   ];
   useEffect(() => {
     //change image every 5 seconds

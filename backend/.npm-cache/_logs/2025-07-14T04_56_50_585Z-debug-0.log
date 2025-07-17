@@ -1,0 +1,13 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\Users\asus\AppData\Local\nvm\v20.19.2\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.4.2
+2 info using node@v20.19.2
+3 silly config load:file:C:\Users\asus\AppData\Local\nvm\v20.19.2\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npmrc
+5 silly config load:file:C:\Users\asus\.npmrc
+6 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
+7 verbose title npm exec tsx --watch src/main.ts
+8 verbose argv "exec" "--" "tsx" "--watch" "src/main.ts"
+9 verbose logfile logs-max:10 dir:C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-14T04_56_50_585Z-
+10 verbose logfile C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-14T04_56_50_585Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files

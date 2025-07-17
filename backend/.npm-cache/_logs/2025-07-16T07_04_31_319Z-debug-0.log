@@ -7,6 +7,7 @@
 6 silly config load:file:C:\nvm4w\nodejs\etc\npmrc
 7 verbose title npm exec tsx --watch src/main.ts
 8 verbose argv "exec" "--" "tsx" "--watch" "src/main.ts"
-9 verbose logfile logs-max:10 dir:C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-06T05_25_37_715Z-
-10 verbose logfile C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-06T05_25_37_715Z-debug-0.log
-11 silly logfile done cleaning log files
+9 verbose logfile logs-max:10 dir:C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-16T07_04_31_319Z-
+10 verbose logfile C:\Users\asus\OneDrive\Desktop\Movie-review-app\backend\.npm-cache\_logs\2025-07-16T07_04_31_319Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files

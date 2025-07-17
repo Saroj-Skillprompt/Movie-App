@@ -34,7 +34,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-white text-black dark:bg-gray-900 dark:text-white">
+    <footer className="bg-white text-black dark:bg-gray-900 dark:text-white ">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
@@ -163,6 +163,9 @@ function Footer() {
             </div>
           </div>
         </div>
+      </div>
+       <div>
+        <img src="/Popcorn.png" alt="Popcorn" className="w-full " />
       </div>
     </footer>
   );
